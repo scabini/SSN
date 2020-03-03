@@ -2,6 +2,7 @@
 Code for Spatio-Spectral Networks (SSN), a method to compute color-texture descriptors from images, from the paper "Spatio-spectral networks for color-texture analysis".
 
 Preprint: https://arxiv.org/abs/1909.06446
+
 Journal version: https://www.sciencedirect.com/science/article/pii/S0020025519310874
 
 
