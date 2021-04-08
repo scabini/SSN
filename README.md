@@ -6,12 +6,13 @@ Preprint: https://arxiv.org/abs/1909.06446
 Journal version: https://www.sciencedirect.com/science/article/pii/S0020025519310874
 
 
-The code was implemented using Matlab and C++. 
-
-The binary "mexa64" works on Linux 64 bit systems. If you are running a different system you need to compile the "SSN_getFeatureMaps.cpp" source via MEX, eg:
+The code was implemented using Matlab and C++. The binary "mexa64" works on Linux 64 bit systems. If you are running a different system you need to compile the "SSN_getFeatureMaps.cpp" source via MEX, eg:
 
 mex('SSN_getFeatureMaps.cpp')
 
+**Usage**
+
+Given a w-by-h-by-3 'image' and a maximum radius 'rn' for pixel neighboring analysis, call the main funcion SSN:   _features = SSN(image, rn)_
 
 If you use our method, please cite the work:
 
