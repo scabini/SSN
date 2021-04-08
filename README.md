@@ -13,5 +13,15 @@ The binary "mexa64" works on Linux 64 bit systems. If you are running a differen
 mex('SSN_getFeatureMaps.cpp')
 
 
-
+If you use our method, please cite the work:
 Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral networks for color-texture analysis." Information Sciences 515 (2020): 64-79.
+
+@article{scabini2020spatio,
+  title={Spatio-spectral networks for color-texture analysis},
+  author={Scabini, Leonardo FS and Ribas, Lucas C and Bruno, Odemir M},
+  journal={Information Sciences},
+  volume={515},
+  pages={64--79},
+  year={2020},
+  publisher={Elsevier}
+}
