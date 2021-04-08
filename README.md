@@ -14,6 +14,7 @@ mex('SSN_getFeatureMaps.cpp')
 
 
 If you use our method, please cite the work:
+
 Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral networks for color-texture analysis." Information Sciences 515 (2020): 64-79.
 
 @article{scabini2020spatio,
