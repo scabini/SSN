@@ -10,14 +10,18 @@ The code was implemented using Matlab and C++. The binary "mexa64" works on Linu
 
 mex('SSN_getFeatureMaps.cpp')
 
-**Usage**
+## Usage
 
-Given a w-by-h-by-3 'image' and a maximum radius 'rn' for pixel neighboring analysis, call the main funcion SSN:   _features = SSN(image, rn)_
+  * Given a w-by-h-by-3 'image' and a maximum radius 'rn' for pixel neighboring analysis, call the main funcion SSN:   _features = SSN(image, rn)_
 
-If you use our method, please cite the work:
+
+## Cite
+
+If you use this method, please cite our paper:
 
 Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral networks for color-texture analysis." Information Sciences 515 (2020): 64-79.
 
+```
 @article{scabini2020spatio,
   title={Spatio-spectral networks for color-texture analysis},
   author={Scabini, Leonardo FS and Ribas, Lucas C and Bruno, Odemir M},
@@ -27,3 +31,8 @@ Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral netw
   year={2020},
   publisher={Elsevier}
 }
+```
+
+
+
+
