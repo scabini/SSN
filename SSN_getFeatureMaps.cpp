@@ -45,7 +45,7 @@ void mexFunction(
     int w, h, z, np;	  
     double *im;
     int radius, L;
-	const long unsigned int *dimensions = mxGetDimensions(prhs[0]); //Qtde de dimensoes da img, deve ser 3.    
+	const long long unsigned int *dimensions = mxGetDimensions(prhs[0]); //Qtde de dimensoes da img, deve ser 3.    
     im = mxGetPr(prhs[0]);
     radius = mxGetScalar(prhs[1]);  
     L = mxGetScalar(prhs[2]);
