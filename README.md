@@ -6,18 +6,18 @@ Preprint: https://arxiv.org/abs/1909.06446
 Journal version: https://www.sciencedirect.com/science/article/pii/S0020025519310874
 
 
-The code was implemented using Matlab and C++. The binary "mexa64" works on Linux 64 bit systems. If you are running a different system you need to compile the "SSN_getFeatureMaps.cpp" source via MEX, eg:
+The code was implemented using Matlab and C++. The binary "mexa64" works on Linux 64 bit systems, while "mexw64" is Windows 64 bit binaries. If you are running a different system, you may need to compile the C++ sources ".cpp" using MEX:
 ```
 mex('SSN_getFeatureMaps.cpp')
 ```
 
 ## Usage
 
-  * Given a w-by-h-by-3 'image' and a maximum radius 'rn' for pixel neighboring analysis, call the main funcion SSN:  
+  * Given a pixel matrix representing an 'image' and a maximum radius 'rn' for neighboring pixel analysis, call the main function SSN:  
   ```
   features = SSN(image, rn)
  ```
-
+  * It works either with 3d matrices (i.e., color images) or 2d matrices (grayscale). However, notice that the method was developed for color images (see the paper). 
 ## Cite
 
 If you use this method, please cite our paper:
@@ -35,7 +35,3 @@ Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral netw
   publisher={Elsevier}
 }
 ```
-
-
-
-
