@@ -6,9 +6,10 @@ Preprint: https://arxiv.org/abs/1909.06446
 Journal version: https://www.sciencedirect.com/science/article/pii/S0020025519310874
 
 
-The code was implemented using Matlab and C++. The binary "mexa64" works on Linux 64 bit systems, while "mexw64" is Windows 64 bit binaries. If you are running a different system, you may need to compile the C++ sources ".cpp" using MEX:
+The code was implemented using Matlab and C++. The binary "mexa64" works on Linux 64 bit systems, while "mexw64" works on Windows 64 bits. If you are running a different system, you may need to compile the C++ sources ".cpp" using MEX:
 ```
 mex('SSN_getFeatureMaps.cpp')
+mex('SSNgrey_getFeatureMaps.cpp')
 ```
 
 ## Usage
