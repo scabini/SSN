@@ -7,7 +7,7 @@ Journal version: https://www.sciencedirect.com/science/article/pii/S002002551931
 
 
 <p align="center">
-    <img src="ssn.jpg" height="440px">
+    <img src="SSN.jpg" height="440px">
 </p>
 
 
